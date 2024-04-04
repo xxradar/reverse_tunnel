@@ -1,5 +1,5 @@
 # reverse_tunnel
-## On the client side
+## On the server side
 ```
 docker run -it \
   -p 8080:8080 -p 9000:9000 -p 9090:9090 \
@@ -12,7 +12,7 @@ curl 192.168.0.157:8080
 ```
 curl 192.168.0.157:9090
 ```
-## On the server side 
+## On the agent side 
 ```
 docker run -d -p 8080:80 nginx
 ```
